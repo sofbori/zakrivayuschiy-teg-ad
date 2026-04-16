@@ -499,7 +499,7 @@
       <button
         type="button"
         class="card__icon-button last-button"
-        onClick="document.getElementById('dialog-id').showModal()"
+        onClick="window['dialog-id'].showModal()"
         aria-controls="dialog-id"
       >
         <svg class="icon" viewBox="0 0 39 39">
@@ -515,7 +515,7 @@
       <span class="button__text">Вставьте дискету, чтобы продолжить</span>
       <button
         type="button"
-        onclick="document.getElementById('dialog-id').close()"
+        onclick="window['dialog-id'].close()"
         class="card__icon-button"
       >
         <span class="button__text">ок</span>

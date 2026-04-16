@@ -16,7 +16,6 @@
   font-family: var(--Inter), sans-serif;
   font-variation-settings: var(--font-weight-text-card);
   background-image: var(--background-image);
-
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: white;
@@ -223,10 +222,6 @@
   animation: sparks-fade 0.3s ease-in 0.3s 1 forwards;
 }
 
-.like-icon .heart .contour {
-  transition: fill 0.1s linear 0s;
-}
-
 .img-second {
   filter: sepia(80%);
 }
@@ -244,8 +239,6 @@
 }
 .img-seventh {
   filter: grayscale(100%);
-}
-.img-eighth {
 }
 dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.75);
